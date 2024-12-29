@@ -1,11 +1,10 @@
-
-#include "7SemiI2CTxFrame.h"
+#include "SevenSemiI2CTxFrame.h"
 
 #include <stdint.h>
 #include <stdlib.h>
 
-#include "7SemiCrc.h"
-#include "7SemiErrors.h"
+#include "SevenSemiCrc.h"
+#include "SevenSemiErrors.h"
 
 DeviceLibraryI2CTxFrame::DeviceLibraryI2CTxFrame(uint8_t buffer[], size_t bufferSize,
                                          size_t numCommandBytes,
