@@ -1,4 +1,4 @@
-#include "7SemiCrc.h"
+#include "SevenSemiCrc.h"
 
 uint8_t generateCRCGeneric(const uint8_t* data, size_t count, uint8_t init,uint8_t polynomial) 
 {
