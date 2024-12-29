@@ -1,6 +1,5 @@
-
-#ifndef 7SEMI_I2C_COM_H_
-#define 7SEMI_I2C_COM_H_
+#ifndef SEVENSEMI_I2C_COM_H_
+#define SEVENSEMI_I2C_COM_H_
 
 #include <stdint.h>
 #include <stdlib.h>
@@ -8,8 +7,8 @@
 #include "Arduino.h"
 #include "Wire.h"
 
-#include "7SemiI2CRxFrame.h"
-#include "7SemiI2CTxFrame.h"
+#include "SEVENSEMII2CRxFrame.h"
+#include "SEVENSEMII2CTxFrame.h"
 
 class DeviceLibraryI2CTxFrame;
 class DeviceLibraryI2CRxFrame;
@@ -27,4 +26,4 @@ class DeviceLibraryI2CCommunication {
                                  CrcPolynomial poly = CRC31_ff);
 };
 
-#endif /* 7SEMI_I2C_COM_H_ */
+#endif /* SEVENSEMI_I2C_COM_H_ */
