@@ -1,6 +1,5 @@
-
-#ifndef _7SEMI_CRC_H_
-#define _7SEMI_CRC_H_
+#ifndef _SEVENSEMI_CRC_H_
+#define _SEVENSEMI_CRC_H_
 
 #include <stdint.h>
 #include <stdlib.h>
@@ -20,4 +19,4 @@ uint8_t generateCRC31_00(const uint8_t* data, size_t count);
 
 uint8_t generateCRC(const uint8_t* data, size_t count, CrcPolynomial type);
 
-#endif /*  _7SEMI_CRC_H_ */
+#endif /*  _SEVENSEMI_CRC_H_ */
