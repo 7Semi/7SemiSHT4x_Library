@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "7SemiSht4x"
+#include "SevenSemiSht4x.h"
 #include <Wire.h>
 
 
