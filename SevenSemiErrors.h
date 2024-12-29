@@ -1,5 +1,5 @@
-#ifndef _7SEMI_ERRORS_H_
-#define _7SEMI_ERRORS_H_
+#ifndef _SEVENSEMI_ERRORS_H_
+#define _SEVENSEMI_ERRORS_H_
 
 #include <stdint.h>
 #include <stdlib.h>
@@ -31,4 +31,4 @@ enum LowLevelError : uint8_t {
 void err_discription(uint16_t error, char errorMessage[],
                    size_t errorMessageSize);
 
-#endif /* _7SEMI_ERRORS_H_ */
+#endif /* _SEVENSEMI_ERRORS_H_ */
