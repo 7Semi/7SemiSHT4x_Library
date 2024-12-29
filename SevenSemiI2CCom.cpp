@@ -1,14 +1,13 @@
-
-#include "7SemiI2CCom.h"
+#include "SevenSemiI2CCom.h"
 
 #include <stdint.h>
 #include <stdlib.h>
 
 #include "Arduino.h"
-#include "7SemiCrc.h"
-#include "7SemiErrors.h"
-#include "7SemiI2CRxFrame.h"
-#include "7SemiI2CTxFrame.h"
+#include "SevenSemiCrc.h"
+#include "SevenSemiErrors.h"
+#include "SevenSemiI2CRxFrame.h"
+#include "SevenSemiI2CTxFrame.h"
 
 static void clearRxBuffer(TwoWire& i2cBus) {
     while (i2cBus.available()) {
