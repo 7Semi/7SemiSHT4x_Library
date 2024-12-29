@@ -1,11 +1,11 @@
-#ifndef 7SEMI_I2C_TX_FRAME_H_
-#define 7SEMI_I2C_TX_FRAME_H_
+#ifndef SEVENSEMI_I2C_TX_FRAME_H_
+#define SEVENSEMI_I2C_TX_FRAME_H_
 
 #include <stdint.h>
 #include <stdlib.h>
 
-#include "7SemiCrc.h"
-#include "7SemiI2CCom.h"
+#include "SevenSemiCrc.h"
+#include "SevenSemiI2CCom.h"
 
 
 class DeviceLibraryI2CTxFrame {
@@ -70,4 +70,4 @@ class DeviceLibraryI2CTxFrame {
     CrcPolynomial _polynomial_type;
 };
 
-#endif /* 7SEMI_I2C_TX_FRAME_H_ */
+#endif /* SEVENSEMI_I2C_TX_FRAME_H_ */
