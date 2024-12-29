@@ -1,7 +1,7 @@
-#ifndef SHT4X_H
-#define SHT4X_H
+#ifndef SEVENSEMISHT4X_H
+#define SEVENSEMISHT4X_H
 
-#include "7SemiI2CDriver.h"
+#include "SevenSemiI2CDriver.h"
 #include <Wire.h>
 
 #define SHT40_I2C_ADDR_44 0x44
@@ -72,4 +72,4 @@ class Sht4x_Sensor {
     uint8_t _i2cAddress = 0;
 };
 
-#endif  // SHT4X_H
+#endif  // SEVENSEMISHT4X_H
