@@ -1,11 +1,11 @@
 /******************************************************************************
- * File:        7SemiSht4x.cpp
+ * File:        SevenSemiSht4x.cpp
  * Author:      7Semi
  * Version:     1.0.0
  * Date:        28/12/2024
  ******************************************************************************/
  
-#include "7SemiSht4x.h"
+#include "SevenSemiSht4x.h"
 #include <Arduino.h>
 
 
