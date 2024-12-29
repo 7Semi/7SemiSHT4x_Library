@@ -1,5 +1,5 @@
-#ifndef 7SEMI_RX_FRAME_H_
-#define 7SEMI_RX_FRAME_H_
+#ifndef SEVENSEMI_RX_FRAME_H_
+#define SEVENSEMI_RX_FRAME_H_
 
 #include <stdint.h>
 #include <stdlib.h>
@@ -59,4 +59,4 @@ class DeviceLibraryRxFrame {
     size_t _numBytes = 0;
 };
 
-#endif /* 7SEMI_RX_FRAME_H_ */
+#endif /* SEVENSEMI_RX_FRAME_H_ */
