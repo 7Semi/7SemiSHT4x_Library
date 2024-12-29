@@ -1,4 +1,4 @@
-#include "7SemiErrors.h"
+#include "SevenSemiErrors.h"
 
 #include <stdint.h>
 #include <stdio.h>
