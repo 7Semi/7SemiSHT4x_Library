@@ -1,10 +1,9 @@
-
-#include "7SemiRxFrame.h"
+#include "SevenSemiRxFrame.h"
 
 #include <stdint.h>
 #include <stdlib.h>
 
-#include "7SemiErrors.h"
+#include "SevenSemiErrors.h"
 
 DeviceLibraryRxFrame::DeviceLibraryRxFrame(uint8_t buffer[], size_t bufferSize)
     : _buffer(buffer), _bufferSize(bufferSize), _index(0), _numBytes(0) {
